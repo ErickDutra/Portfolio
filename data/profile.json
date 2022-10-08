@@ -48,13 +48,18 @@
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "name": "Criação de uma Pokedex (Consumindo uma API)",
+        "url": "https://github.com/ErickDutra/PokeDex",
         "github": true
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "name": "Jogo da Velha com Java/Jframe",
+        "url": "https://github.com/ErickDutra/JogoDaVelha",
+        "github": true
+      },
+      {
+        "name": "Página web curso de Flex-Box",
+        "url": "https://github.com/ErickDutra/Curso-FlexBox",
         "github": true
       }
     ],
