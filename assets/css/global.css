@@ -5,7 +5,7 @@
 
 @font-face{
     font-family: 'Neue Machine';
-    src: url('/assets/fonts/neuemachina-regular.otf');
+    src: url('../fonts/neuemachina-regular.otf');
 
 }
 
@@ -42,7 +42,7 @@ br{
 
 .main::before{
     content: '';
-    background-image: url(/assets/img/icons/retro.svg);
+    background-image: url(../img/icons/retro.svg);
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
