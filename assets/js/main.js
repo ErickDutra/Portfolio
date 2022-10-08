@@ -1,6 +1,6 @@
 
 function updateProfileInfo(profileData){
-    const name = document.getElementById('profile.nome')
+    const name = document.getElementById('profile.name')
     name.innerText = profileData.name
 
     const job = document.getElementById('profile.job')
