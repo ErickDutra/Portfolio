@@ -8,28 +8,28 @@
     "skills": {
       "hardSkills": [
         {
-          "name": "Nodejs",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/ErickDutra/Portfolio/main/data/img/icons/html.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/ErickDutra/Portfolio/main/data/img/icons/css3.png"
         },
         {
           "name": "Java",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+          "logo": "https://raw.githubusercontent.com/ErickDutra/Portfolio/main/data/img/icons/java.png"
         },
         {
-          "name": "Angular",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+          "name": "Python",
+          "logo": "https://raw.githubusercontent.com/ErickDutra/Portfolio/main/data/img/icons/python.png"
         },
         {
-          "name": "React",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-        },
-        {
-          "name": "Mongodb",
+          "name": "MySQL",
           "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
         },
         {
-          "name": "Postgresql",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/ErickDutra/Portfolio/main/data/img/icons/javascript.png"
         }
       ],
       "softSkills": [
