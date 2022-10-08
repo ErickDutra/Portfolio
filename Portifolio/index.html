@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Erick Dutra</title>
+    
+    
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Font Open Seans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/lenguage.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/portifolio.css">
+    <link rel="stylesheet" href="/assets/css/skills.css">
+
+</head> 
+    
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="/assets/img/eu500.png" alt="Foto de Erick Dutra" class="photo">
+            <h1 class ="title">Olá, eu sou o <span id="profile.name">Carregando...</span> !</h1>
+            <div class="information"> 
+                <p class="user">
+                    <a href="https://github.com/ErickDutra">
+                        <span id="profile.job">carregando...</span>
+                    </a> 
+                </p>
+                <p class="maps"><span id="profile.location">carregando...</span></p>
+                <p class="phone">
+                  <a href="tel:(27) 97400-9507"><span id="profile.phone">carregando...</span></a>
+                </p>
+                <p class="gmail">
+                  <a href="mailto:erickdutra140@gmail.com"><span id="profile.email">carregando...@gmail.com</span></a>  
+                </p>
+            </div>
+        </header>
+
+        <section class="acordeon ">
+            <button class="trigger" type="button">
+               <h2>Sobre</h2>
+            </button>
+            <div class="content">
+                <p class="lenguage">
+            <pre>            Olá meu nome e Erick Dutra, sou estudante no curso de Sistema de informação e um 
+        apaixonado por tecnologia, conheço a área a bastante tempo mas somente a um ano tive  
+        coragem de começar a estudar de fato o desenvolvimento web, e foi assim que me 
+        encontrei.</pre>
+
+            <pre>            Hoje estou em constante busca do aperfeiçoamento, procurando a sempre tirar o 
+        melhor de mim nos estudos, gosto aprender e desenvolver minhas soft skills.</pre>               
+                </p>
+            </div>
+        </section>
+
+<br>
+        <section class="acordeon">
+            
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
+            <div class="content">
+                <ul class="portifolio" id="profile.portfolio">
+
+                </ul>
+            </div>
+          
+        </section>
+<br>
+        <section class="acordeon">
+            
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+            <div class="content">
+                <div class="skills">
+                <section class="tools">
+                    <h3>Habilidades profissionais:</h3>
+                    <ul id="profile.skills.hardSkills" >
+                       
+                    </ul>
+                </section>
+                <section class="pessoais">
+                    <h3>Habilidades pessoais:</h3>
+                    <ul id="profile.skills.softSkills">
+                        <li>carregando...</li>
+                        <li>carregando...</li>
+                        <li>carregando...</li>
+                    </ul>
+                </section>
+                </div>
+            </div>
+          
+        </section>
+
+    </main>
+
+
+    <script src="/assets/js/accordion.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
+
+
