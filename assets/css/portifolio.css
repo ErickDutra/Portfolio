@@ -15,13 +15,13 @@
     margin: 1rem 0;
 }
 
-.portifolio li .title{
+.portifolio li h3{
     font-size: 1.25rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
 
-.portifolio li .title.github::before{
+.portifolio li h3.github::before{
     content:'';
     display: inline-block;
     width: 1.75rem;
