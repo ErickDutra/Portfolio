@@ -1,6 +1,7 @@
 
 
 .sobre{
+    font-size: 1.15rem;
     display: flex;
     flex-direction: row;
     align-items: center;
