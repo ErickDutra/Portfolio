@@ -1,0 +1,102 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 015px black;
+}
+
+.header .photo {
+    margin: 1rem;
+    width: 200px;
+    height: 200px;
+}
+
+.header .title{
+    font-family: 'Neue Machine';
+    text-align: center;
+    text-shadow: 0 0 015px black;
+}
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    text-shadow: 0 0 015px black;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.125rem;
+}
+
+.information p::before {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+} 
+
+
+.information a{
+    text-decoration: none;
+    color: white;
+}
+
+.information a:hover{
+    text-decoration: underline;
+}
+
+.information .user::before{
+    background-image: url(/assets/img/icons/user.svg);
+}
+
+.information .phone::before{
+    background-image: url(/assets/img/icons/phone.svg);
+}
+
+ .information .gmail::before{
+    background-image: url(/assets/img/icons/gmail.svg);
+ }
+
+ .information .maps::before{
+    background-image: url(/assets/img/icons/maps.svg);
+ }
+
+
+ @media only screen and (min-width: 768px ){
+    
+     .header{
+        display: grid;
+        grid-template-areas:
+            "photo title"
+            "photo information"
+        ;
+    }
+    
+    .header .photo{
+        grid-area: photo;
+        margin: 0 auto;
+    }
+    
+    .header .title{
+        grid-area: title;
+        text-align: start;
+        max-width: 200px;
+    }
+    
+    .header .information{
+        grid-area: information;
+    }
+
+   
+
+ }

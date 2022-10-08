@@ -1,0 +1,46 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .tools ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 14rem;
+}
+
+.skills .tools ul li img{
+    max-width: 50px;
+    margin: 1rem;
+} 
+
+.pessoais{ 
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    max-width: 14rem;
+}
+.skills .pessoais ul li{
+    margin-left: 2rem;
+   padding: .5rem;
+   font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 768px){
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}

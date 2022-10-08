@@ -1,0 +1,84 @@
+
+.acordeon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid white;
+    border-radius: 1rem;
+    transition: 0.25s;
+    background-color: #3d273bbd;
+    border-color:#3d273bbd;
+    box-shadow: 0 0 015px black;
+}
+
+.acordeon.open,
+.acordeon:hover{
+    background-color: #3d273bbd;
+    border-color:#3d273bbd;
+}
+
+
+.acordeon .trigger{
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    padding: 1rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-shadow: 0 0 015px black;
+    transition: .5s;
+    
+}
+
+.acordeon .trigger h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+
+.acordeon .trigger:hover{
+    cursor: pointer;
+    transform: scale(1.025);
+    background-color:#3d273b ;
+    border-radius: 1rem;
+}
+
+.acordeon .trigger::after{
+    content:'';
+    display: inline-block;
+    min-width: 24px;
+    width: 1.75rem;
+    height: 1.75rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icons/cardapio.svg');
+    transition: 0.25s;
+}
+
+.acordeon.open .trigger::after{ 
+    min-width: 24px;
+    background-image: url('/assets/img/icons/cancelar.svg');
+}
+
+.acordeon .content{
+    overflow: hidden;
+    height: 0;
+    padding: 0;
+    opacity: 0;
+    transform: opacity 0.5s ease-in-out;
+    transition: 1s; 
+}
+
+.acordeon.open .content{
+    display: block;
+    padding: 0 1rem 1rem 2rem;
+    height: auto;
+    opacity: 1;
+    transition: 1s;
+}
