@@ -57,13 +57,13 @@
     height: 1.75rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icons/cardapio.svg');
+    background-image: url('assets/img/icons/cardapio.svg');
     transition: 0.25s;
 }
 
 .acordeon.open .trigger::after{ 
     min-width: 24px;
-    background-image: url('/assets/img/icons/cancelar.svg');
+    background-image: url('assets/img/icons/cancelar.svg');
 }
 
 .acordeon .content{

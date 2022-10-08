@@ -56,19 +56,19 @@
 }
 
 .information .user::before{
-    background-image: url(/assets/img/icons/user.svg);
+    background-image: url(assets/img/icons/user.svg);
 }
 
 .information .phone::before{
-    background-image: url(/assets/img/icons/phone.svg);
+    background-image: url(assets/img/icons/phone.svg);
 }
 
  .information .gmail::before{
-    background-image: url(/assets/img/icons/gmail.svg);
+    background-image: url(assets/img/icons/gmail.svg);
  }
 
  .information .maps::before{
-    background-image: url(/assets/img/icons/maps.svg);
+    background-image: url(assets/img/icons/maps.svg);
  }
 
 
