@@ -8,9 +8,6 @@ function updateProfileInfo(profileData){
 
     const location = document.getElementById('profile.location')
     location.innerText = profileData.location
-    
-    const linkedin = document.getElementById('profile.linkedin')
-    linkedin.innerText = profileData.linkedin
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
