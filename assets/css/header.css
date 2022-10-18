@@ -59,7 +59,7 @@
     background-image: url(../img/icons/user.svg);
 }
 
-.information .phone::before{
+.information .linkedin::before{
     background-image: url(../img/icons/linkedin.svg);
 }
 
