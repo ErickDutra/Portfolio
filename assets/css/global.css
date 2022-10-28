@@ -35,19 +35,19 @@ br{
     padding: 1rem;
     border: 1px solid white ;
     border-radius: 1rem;
-    background-color:rgba(0, 0, 0, 0.438);
+    background-color:#ca4860ce;
     box-shadow: 0 0 015px black;
     transition-delay: 1s;
 }
 
 .main::before{
     content: '';
-    background-image: url(../img/icons/retro.svg);
+    background-image: url(../img/icons/bit.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
-    width: 1500px;
-    height: 1500px;
+    width: 1400px;
+    height: 1400px;
     position: fixed;
     top: 0;
     left: 0;
