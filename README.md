@@ -1,8 +1,8 @@
 # Portfolio
  >> Portfolio web 
 
-![WebPortfolio](https://user-images.githubusercontent.com/107477302/200462077-a0ceafbf-3b57-4eea-a871-139d514ed1ac.PNG)
 
+![Captura de tela 2023-11-11 020441](https://github.com/ErickDutra/Portfolio/assets/107477302/514d57fe-7523-4553-b3d6-b25369d57bcd)
 
 - portifolio criado a partir de um curso feito com base nas ferramentas; HTML, CSS e JavaScript. 
 
