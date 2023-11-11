@@ -35,14 +35,14 @@ br{
     padding: 1rem;
     border: 1px solid white ;
     border-radius: 1rem;
-    background-color:#ca4860ce;
-    box-shadow: 0 0 015px black;
+    background-color:rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0 015px rgb(0, 0, 0);
     transition-delay: 1s;
 }
 
 .main::before{
     content: '';
-    background-image: url(../img/icons/bit.jpg);
+    background-image: url(../img/icons/fish.webp);
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;

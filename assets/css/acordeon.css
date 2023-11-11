@@ -7,15 +7,15 @@
     border: 1px solid white;
     border-radius: 1rem;
     transition: 0.25s;
-    background-color: #ca4860ce;
-    border-color:#ca4860ce;
+    background-color: black;
+    border-color:black;
     box-shadow: 0 0 015px black;
 }
 
 .acordeon.open,
 .acordeon:hover{
-    background-color: #ca4860ce;
-    border-color:#ca4860ce;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-color:rgba(0, 0, 0, 0.411);
 }
 
 
@@ -30,7 +30,7 @@
     background-color: transparent;
     color: white;
     border: none;
-    text-shadow: 0 0 015px black;
+    text-shadow: 0 0 015px rgba(0, 0, 0, 0.411);
     transition: .5s;
     
 }
@@ -45,7 +45,7 @@
 .acordeon .trigger:hover{
     cursor: pointer;
     transform: scale(1.025);
-    background-color:#de526c ;
+    background-color:black;
     border-radius: 1rem;
 }
 
