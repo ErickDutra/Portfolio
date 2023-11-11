@@ -90,27 +90,28 @@
     
     .header .title{
         grid-area: title;
-        text-align: start;
+        text-align: right;
         max-width: 0;
-        border-right: 2px solid black;
+        border-right: 0px;
         display: inline-block;
         padding-right: 3px;
         white-space: nowrap;
         overflow: hidden;
-        animation: pisca normal infinite .8s, escrever normal 5s  both;
+        animation:escrever normal 5s  both;
     }
 
-
-    @keyframes pisca {
-        100%{
-            border-right-color: transparent;
-        }
-    }
 
     @keyframes escrever{
         100%{
-            max-width: 100%;
+
+            max-width: 75%;
+            
         }
+    }
+
+    body  main  header  div.goku  img{
+        width: 50px;
+        position: absolute;
     }
     
     .header .information{
