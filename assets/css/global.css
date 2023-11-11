@@ -42,7 +42,7 @@ br{
 
 .main::before{
     content: '';
-    background-image: url(../img/icons/fish.webp);
+    background-image: url(../img/icons/fish.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
