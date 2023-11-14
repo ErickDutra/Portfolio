@@ -97,7 +97,7 @@
         display: inline-block;
         white-space: nowrap;
         overflow: hidden;
-        animation: pisca normal infinite .8s, escrever normal 5s both;
+        animation: pisca normal infinite .8s, escrever normal 5s steps(60) both;
     }
 
     @keyframes pisca {
